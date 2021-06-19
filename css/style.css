@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(204, 210, 211);
+  
+}
+
+
+.div{
+    background-color:#324042 ;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 80px;
+    
+    width: 400px;
+    height: 600px;
+    border-radius: 8px;
+    border-style: outset;
+    border-color: #324042;
+    }
+img{
+    position: relative;
+    margin-left:auto;
+    margin-right: auto;
+    display: inline-block;
+    width: 400px;
+    height: 455px;
+    border-radius: 8px;
+}
+a {
+    position: absolute;
+    font-style: italic;
+    font-size: 15px;
+    color: rgb(238, 231, 223);
+    top: 650px;
+
+
+
+}
+
+    .fa-twitter-square:hover {
+    color:#55acee;
+    }
+    
+    
+    .fa-linkedin-square:hover{
+    color:#0177B5;
+    }
+    
+    .fa-instagram:hover{
+        color:#0177B5;  
+    }
+    
+    .fa-twitter-square {
+    margin-left: 380px;
+    font-size: 200px;
+    color: rgb(238, 231, 223);
+    width: 50px;
+    }
+    
+    
+    .fa-linkedin-square {
+    margin-left: 350px;
+    font-size: 80px;
+    color: rgb(238, 231, 223);
+    }
+    .fa-instagram{
+        margin-left: 320px;
+        font-size: 80px;
+        color: rgb(238, 231, 223);
+        } 
+    
