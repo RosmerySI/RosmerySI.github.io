@@ -6,37 +6,33 @@ body{
     display: flex;
     flex-direction: row;
     
+    
 
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 576px){
  .container{ 
      display: flex;
      flex-direction: column;
-     place-items: center;
-    
-     
  }
-     
- #primero{
+  
+#letras{
+    height: 200px;
+    width: 484px;
     
-    background-color: rgba(30,31,37,255);
-    border-bottom-right-radius: 0px;
-    border-top-left-radius: 10px;
-    width: 70px ;
-    margin-left: 0px;
-    position: relative;
-    left: 0px;
-    right: 10px;
-    margin-left: 0px;
 }
-  #segundo{
-    position: relative;
-    left: 0px;
-    right: 0px;
-    width: 800px;
+#big{
+    font-size: 15px;
+}
+#redes{
+    width: 600px;
+}
+#buttons{
+    display: flex;
+    flex-direction: column;
 }
 }
+
 
 
 
@@ -44,63 +40,69 @@ body{
     background-color: rgba(30,31,37,255);
     border-bottom-right-radius: 200px ;
     border-top-left-radius: 10px;
-    width: 900px;
-    height: 660px;
-    margin-left: 100px;
+    margin-left: none;
+    margin-top: 3px;
+    width: 1000px; 
+    height: 650px;
+    
+
+    
+   
 }
 #segundo{
     background-image: linear-gradient(to bottom right, rgba(255,112,165,255), rgba(171,101,166,255), rgba(229,183,246,255))  ;
     border-bottom-left-radius: 150px ;
     border-top-right-radius: 10px;
-    width: 750px;
-    height: 550px;
+    width: 800px;
+    height:550px;
     position: relative;
-    bottom: 0px;
-    right: 50px;
+    right: 100px;
+    margin-top: 3px;
+    
     
 }
+
+#letras{
+  margin-left: 60px;  
+
     
+    } 
+#arriba{
+ display: flex;
+ flex-direction: row;
+
+}
 #superior{
     color: white;
     font-size: 20px;
-    position: relative;
-    left:110px;
-    bottom: 90px;
+  
+    
 }
 #boosting{
     color: rgba(145,110,188,255);
     font-family: 'Dancing Script', cursive;
     font-size: 30px;
-    position: relative;
-    left:110px;
-    bottom: 80px;
+    margin-top: 50px;
 }
 #big{
     color: white;
-    font-size: 75px;
-    position: relative;
-    left:105px;
-    bottom: 115px;
-    
+    font-size: 30px;
+   
 }
 
 
 #Texto{
     color: rgba(98,97,104,255);
     width: 400px;
-    position: relative;
-    left:110px;
-    bottom: 150px;
+    
+    
   }
 #button{
 background-color: rgba(209,136,239,255);
 border-radius: 50px;
 border-style: none;
-position: relative;
-left:110px;
-bottom: 120px;
 width: 220px ;
-height: 50px;
+height: 60px;
 color:rgba(246,226,253,255);
 text-align: left;
 padding-left: 25px;
@@ -110,32 +112,29 @@ padding-left: 25px;
     border-radius: 50px;
     border-style: solid;
     border-width: 1px;
-    position: relative;
-    left: 130px;
-    bottom: 120px;    
     width: 220px ;
-    height: 50px;
+    height: 60px;
     color:rgba(246,226,253,255);
     text-align: center;
+    margin-left: 40px;
 }
 
 #scroll{
     color: rgb(190, 190, 190);
     position: relative;
-    top:550px;
-    right: 550px;
-
+    top:700px;
+    left: 300px;
 }
+
 #ovalo1{
     background-image:linear-gradient(to bottom,rgba(251,130,160,255), rgba(229,124,169,255), rgba(171,101,166,255)) ;
     border-top-left-radius: 100px;
     border-top-right-radius: 100px;
-    
     width: 190px;
     height:400px;
     position: relative;
-    left: 30px;
-    top: 25px;
+    left: 40px;
+    top: 30px;
 }
 #ovalo2{
     background-image:linear-gradient(to bottom,rgba(246,170,215,255), rgba(245,207,243,255), rgba(249,229,254,255)) ;
@@ -206,49 +205,52 @@ padding-left: 25px;
 }   
 
 .instagram{
-   background-color: none; 
+  
    width: 120px;
    height: 40px;
-   margin-left: 50px;
-   position: relative;
-   bottom: 10px;
-   right: 380px;
+   
+  
 }
 .linkedin{
-    position: relative;
-    bottom: 25px;
-    right: 100px;
+   
     width:25px;
     height: 25px;
+    margin-left: 60px;
+    margin-bottom: 10px;
 }
 .twitter{
     
-    position: relative;
-    right: 230px;
-    bottom: 20px;
+  
     width:30px;
     height: 30px;
+    margin-left: 60px;
+    margin-bottom: 5px;
 
+    
 }
 .youtube{
-    background-color: none; 
+    
    width:100px;
    height: 40px;
-   margin-left: 70px;
-   position: relative;
-   bottom: 75px;
-   left: 200px;
+   margin-left: 60px;
+  
 
 }
 #navegacion{
-    position: relative;
-    left: 400px;
-    top: 40px;
-    width: 150px;
+  height: 20px; 
+  margin-left: 200px;
+  margin-top: 20px;
+}
+
+#redes{
+    margin-top: 50px;
 }
 
 #flecha{
-position: relative;
-left: 5px;
-top:20px;
+    
 }
+ #buttons{
+     display: flex;
+     flex-direction:row;
+     margin-top: 40px;
+ }
