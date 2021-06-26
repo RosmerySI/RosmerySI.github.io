@@ -6,32 +6,8 @@ body{
     display: flex;
     flex-direction: row;
     
-    
-
 }
 
-@media screen and (max-width: 576px){
- .container{ 
-     display: flex;
-     flex-direction: column;
- }
-  
-#letras{
-    height: 200px;
-    width: 484px;
-    
-}
-#big{
-    font-size: 15px;
-}
-#redes{
-    width: 600px;
-}
-#buttons{
-    display: flex;
-    flex-direction: column;
-}
-}
 
 
 
@@ -40,38 +16,43 @@ body{
     background-color: rgba(30,31,37,255);
     border-bottom-right-radius: 200px ;
     border-top-left-radius: 10px;
-    margin-left: none;
     margin-top: 3px;
-    width: 1000px; 
-    height: 650px;
+    width: 8000px; 
+    height: 600px;
+    position: relative;
+    left: 50px;
     
-
-    
-   
 }
+   
+
 #segundo{
     background-image: linear-gradient(to bottom right, rgba(255,112,165,255), rgba(171,101,166,255), rgba(229,183,246,255))  ;
     border-bottom-left-radius: 150px ;
     border-top-right-radius: 10px;
-    width: 800px;
-    height:550px;
-    position: relative;
-    right: 100px;
+    width: 6000px;
+    height:500px;
     margin-top: 3px;
-    
+    position: relative;
+    right: 50px;
+
+
     
 }
 
 #letras{
-  margin-left: 60px;  
+ position: relative;
+ bottom: 650px;
+ margin-left: 250px; 
+ width: 1000px; 
 
-    
     } 
 #arriba{
- display: flex;
- flex-direction: row;
-
+display: flex;
+flex-direction: row;
+position: relative;
+top: 50px;
 }
+
 #superior{
     color: white;
     font-size: 20px;
@@ -81,12 +62,16 @@ body{
 #boosting{
     color: rgba(145,110,188,255);
     font-family: 'Dancing Script', cursive;
-    font-size: 30px;
-    margin-top: 50px;
+    font-size: 25px;
+    position: relative;
+    top: 50px;
 }
 #big{
     color: white;
-    font-size: 30px;
+    font-size: 35px;
+    margin-top: none;
+    width: 600px;
+    
    
 }
 
@@ -101,8 +86,8 @@ body{
 background-color: rgba(209,136,239,255);
 border-radius: 50px;
 border-style: none;
-width: 220px ;
-height: 60px;
+width: 180px ;
+height: 50px;
 color:rgba(246,226,253,255);
 text-align: left;
 padding-left: 25px;
@@ -112,8 +97,8 @@ padding-left: 25px;
     border-radius: 50px;
     border-style: solid;
     border-width: 1px;
-    width: 220px ;
-    height: 60px;
+    width: 180px ;
+    height: 50px;
     color:rgba(246,226,253,255);
     text-align: center;
     margin-left: 40px;
@@ -121,9 +106,8 @@ padding-left: 25px;
 
 #scroll{
     color: rgb(190, 190, 190);
-    position: relative;
-    top:700px;
-    left: 300px;
+    margin-left:550px;
+    margin-bottom: 150px ;
 }
 
 #ovalo1{
@@ -142,7 +126,7 @@ padding-left: 25px;
     border-bottom-right-radius: 200px;
     border-width: 1px;
     width: 210px;
-    height:500px;
+    height:480px;
     position: relative;
     bottom: 400px;
     left: 218px;
@@ -173,16 +157,16 @@ padding-left: 25px;
     width: 50px;
     height:50px;
     position: relative;
-     bottom: 220px;
+    bottom: 220px;
     left: 110px;
 }
 #pink{
     border-radius: 200px;
-    width: 200px;
-    height:200px;
+    width: 180px;
+    height:180px;
     position: relative;
-    top: 20px;
-    right: 5px; 
+    top: 30px;
+    right: 0px; 
     
 }
 #purple{
@@ -197,7 +181,7 @@ padding-left: 25px;
 #black{
     border-bottom-left-radius: 100px;
     border-bottom-right-radius: 100px;
-    width: 200px;
+    width: 190px;
     height:250px;
     position: relative;
      right:20px;
@@ -206,7 +190,7 @@ padding-left: 25px;
 
 .instagram{
   
-   width: 120px;
+   width: 90px;
    height: 40px;
    
   
@@ -215,7 +199,7 @@ padding-left: 25px;
    
     width:25px;
     height: 25px;
-    margin-left: 60px;
+    margin-left: 50px;
     margin-bottom: 10px;
 }
 .twitter{
@@ -223,22 +207,22 @@ padding-left: 25px;
   
     width:30px;
     height: 30px;
-    margin-left: 60px;
+    margin-left: 50px;
     margin-bottom: 5px;
 
     
 }
 .youtube{
     
-   width:100px;
+   width:80px;
    height: 40px;
-   margin-left: 60px;
+   margin-left: 40px;
   
 
 }
 #navegacion{
   height: 20px; 
-  margin-left: 200px;
+  margin-left: 360px;
   margin-top: 20px;
 }
 
@@ -246,11 +230,261 @@ padding-left: 25px;
     margin-top: 50px;
 }
 
-#flecha{
-    
-}
+
  #buttons{
      display: flex;
      flex-direction:row;
      margin-top: 40px;
  }
+ #flechita{
+     position: relative;
+     left: 130px;
+     bottom: 30px;
+     width: 30px;
+     height: 15px;
+ }
+
+ #Continuo{
+  margin-left: 300px;
+  position: relative;
+  bottom: 700px;
+
+ }
+
+#Titulo{
+    font-family: 'Jomhuria', cursive;
+    font-size: 70px;
+   margin-left: 100px;
+    
+    
+}
+#Pretty{
+    color: rgb(190, 190, 190);
+    width:400px;
+    margin-left: 100px;
+    position: relative;
+    bottom:50px;
+    margin-left: 200px;
+    justify-items: center;
+    
+}
+
+#html{
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+}
+.html{
+    color: rgb(190, 190, 190);
+    width: 300px;
+
+}
+.picture0{
+    margin-left: 180px;
+}
+#css{
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    margin-top: 150px;
+}
+.css{
+    color: rgb(190, 190, 190);
+    margin-left: 200px;
+    width: 300px;
+}
+.heading{
+    margin-left: 200px;
+}
+
+#media{
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    margin-top: 150px;
+}
+.media{
+    color: rgb(190, 190, 190);
+    width: 300px;
+}
+.picture{
+   width: 300px;
+   height: 300px;
+   margin-top: 50px;
+   margin-left: 200px;
+}
+.picture4{
+    width:800px;
+    height: 500px;
+    margin-top: 100px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 8px;
+}
+.picturen{
+    position: relative;
+    right: 150px;
+    width: 1000px;
+}
+
+ @media screen and (max-width: 576px){
+    .container{ 
+        display: flex;
+        flex-direction: column; 
+        
+    }
+   
+#primero{
+    background-color: rgba(30,31,37,255);
+    border-bottom-right-radius: 0px ;
+    border-top-left-radius: 0px;
+    width: 500px;
+    height: 600px;
+    position: relative;
+    left: 0px;
+    right: 300px;
+    
+}
+   
+#segundo{
+    background-image: linear-gradient(to bottom right, rgba(255,112,165,255), rgba(171,101,166,255), rgba(229,183,246,255))  ;
+    border-bottom-left-radius: 0px ;
+    border-top-right-radius: 0px;
+    width: 500px;
+    height:600px;
+    margin-top: 0px;
+    position: relative;
+    right: 0px;
+
+
+    
+}
+
+#letras{
+       position: relative;
+       left: none;
+       right: 250px;
+       bottom: 1250px;
+       width: 400px;
+       margin-left: none;
+
+   }
+   #big{
+       font-size: 25px;
+       width: 400px;
+       position: relative;
+      top: 20px;
+   }
+   #redes{
+       width: 600px;
+   }
+   #buttons{
+       display: flex;
+       flex-direction: column;
+       flex-wrap:nowrap;
+   }
+   #button1{
+       position: relative;
+       top: 30px;
+       right: 37px;
+   }
+  
+   #Continuo{
+    
+    position: relative;
+    right: 400px;
+    bottom: 700px;
+    width: 300px;
+  
+   }
+    
+   #Titulo{
+    font-family: 'Jomhuria', cursive;
+    font-size: 60px;
+    width: 300;
+    margin-left: 100px;
+    
+    
+}
+#Pretty{
+    color: rgb(190, 190, 190);
+    position: relative;
+    right: 100px;
+    bottom:50px;
+    
+   
+    
+}
+
+#html{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-left: 100px;
+}
+.html{
+    color: rgb(190, 190, 190);
+    width: 400px;
+    
+}
+.picture0{
+   position: relative;
+   right: 200px;
+    
+}
+#css{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 150px;
+}
+.css{
+    color: rgb(190, 190, 190);
+    margin-left: 100px;
+    width: 300px;
+}
+
+.picture1{
+margin-left: 100px;
+
+}
+.heading{
+    margin-left: 100px;
+}
+
+#media{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 100px
+}
+.media{
+    color: rgb(190, 190, 190);
+    width: 300px;
+}
+.picture{
+   width: 200px;
+   height: 200px;
+   margin-top: 50px;
+   position: relative;
+   right: 600px;
+   top: 100px;
+}
+.picture4{
+    width:400px;
+    height: 300px;
+    margin-top: 200px;
+    margin-left: 100px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 8px;
+}
+.picturen{
+    position: relative;
+    right: 150px;
+    width: 1000px;
+}
+
+   }
+   
